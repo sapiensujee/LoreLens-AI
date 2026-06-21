@@ -17,8 +17,6 @@ Quiz questions, correct answers, explanations, and raw user answers are temporar
 - Product name: LoreLens AI
 - Repository: `https://github.com/sapiensujee/LoreLens-AI.git`
 - Default branch: `main`
-- Local project path used during development: `C:\Quiz App`
-- Original requirement document: `AI Quiz App Requirement.docx`
 
 ## Core requirements
 
@@ -83,7 +81,6 @@ Quiz questions, correct answers, explanations, and raw user answers are temporar
 - `.env.example`: Supported runtime variables
 - `.gitignore`: Excludes dependencies, builds, local databases, environment files, and logs
 - `README.md`: End-user installation, run, configuration, and troubleshooting guide
-- `AI Quiz App Requirement.docx`: Original product requirement document
 
 ## Local environment established during development
 
@@ -94,7 +91,6 @@ The initial Windows development environment used:
 - Ollama 0.30.10
 - NVIDIA GeForce RTX 4050 Laptop GPU with 6 GB VRAM
 - Model storage path: `D:\LLM`
-- Project path: `C:\Quiz App`
 
 The Ollama logs showed that CUDA inference selected the NVIDIA GPU. A warning about an older AMD integrated-graphics driver was present but did not prevent Ollama from selecting the NVIDIA GPU.
 
