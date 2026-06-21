@@ -1,0 +1,29 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Local application data
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local configuration and logs
+.env
+.env.local
+.env.*.local
+!.env.example
+*.log
+npm-debug.log*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
